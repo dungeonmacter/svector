@@ -18,6 +18,8 @@ int main() {
     v.data[3] = 4;
     v.data[4] = 5;
 
+    printVector(&v);
+
     reserve(&v, 3);
 
     printVector1(&v);
