@@ -26,6 +26,7 @@ int main() {
 
     shrinkToFit(&v);
 
+    
     printVector1(&v);
 
     printf("%d\n", getVectorValue(&v, 3));
